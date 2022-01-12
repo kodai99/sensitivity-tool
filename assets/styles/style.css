@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+  color: rgb(43, 43, 43);
+  background-color: rgb(135, 156, 182);
+  font-family: "Luxurious Roman", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* "Form.js" */
+.formWrap {
+  font-size: 0.7rem;
+  width: 95vw;
+  min-height: 100vh;
+  margin: 45% auto 0 auto;
+  text-align: center;
+}
+
+.formWrap header p {
+  margin-top: 5%;
+}
+
+.formWrap .textField {
+  margin: 30% auto 5% auto;
+}
+
+.formWrap .btn {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* "SensitivityList.js" "Sensitivity.js" */
+.SensitivityWrap {
+  font-size: 0.7rem;
+  width: 95vw;
+  min-height: 100vh;
+  margin: 45% auto 0 auto;
+  text-align: center;
+}
+
+.SensitivityWrap header p {
+  margin-top: 5%;
+}
+
+.SensitivityWrap ul {
+  margin: 30% auto 5% auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.gridWrap li {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.gridWrap .sensName {
+  font-size: 0.9rem;
+}
+
+.gridWrap .sensLevel {
+  font-size: 1.5rem;
+}
+
+.SensitivityWrap .btn {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* "Result.js" */
+.resultWrap {
+  font-size: 0.7rem;
+  width: 95vw;
+  min-height: 100vh;
+  margin: 45% auto 0 auto;
+  text-align: center;
+}
+
+.resultWrap .result {
+  margin: 30% auto 5% auto;
+}
+
+.resultWrap .btn {
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* "Error.js" */
+.errorWrap {
+  font-size: 0.7rem;
+  width: 95vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.errorWrap h1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @Tablet */
+@media (min-width: 600px) {
+  /* "Form.js" */
+  .formWrap {
+    font-size: 1rem;
+    margin-top: 25%;
+  }
+
+  .formWrap header p {
+    margin-top: 3%;
+  }
+
+  .formWrap .textField {
+    margin-top: 20%;
+  }
+
+  .formWrap .btn {
+    width: 22.5%;
+  }
+
+  /* "SensitivityList.js" "Sensitivity.js" */
+  .SensitivityWrap {
+    font-size: 1rem;
+    margin-top: 25%;
+  }
+
+  .SensitivityWrap header p {
+    margin-top: 3%;
+  }
+
+  .SensitivityWrap ul {
+    margin-top: 20%;
+  }
+
+  .gridWrap .sensName {
+    font-size: 1.4rem;
+  }
+
+  .gridWrap .sensLevel {
+    font-size: 2rem;
+  }
+
+  .SensitivityWrap .btn {
+    width: 22.5%;
+  }
+
+  /* "Result.js" */
+  .resultWrap {
+    font-size: 1rem;
+    margin-top: 25%;
+  }
+
+  .resultWrap .result {
+    margin-top: 20%;
+  }
+
+  .resultWrap .btn {
+    width: 22.5%;
+  }
+}
+
+/* @PC */
+@media (min-width: 1025px) {
+  /* "Form.js" */
+  .formWrap {
+    font-size: 1.3rem;
+    margin-top: 10%;
+  }
+
+  .formWrap header p {
+    margin-top: 1%;
+  }
+
+  .formWrap .textField {
+    margin-top: 10%;
+  }
+
+  .formWrap .btn {
+    width: 15%;
+  }
+
+  /* "SensitivityList.js" "Sensitivity.js" */
+  .SensitivityWrap {
+    font-size: 1.3rem;
+    margin-top: 10%;
+  }
+
+  .SensitivityWrap header p {
+    margin-top: 1%;
+  }
+
+  .SensitivityWrap ul {
+    margin-top: 10%;
+  }
+
+  .gridWrap .sensName {
+    font-size: 2rem;
+  }
+
+  .gridWrap .sensLevel {
+    font-size: 3rem;
+  }
+
+  .SensitivityWrap .btn {
+    width: 15%;
+  }
+
+  /* "Result.js" */
+  .resultWrap {
+    font-size: 1.3rem;
+    margin-top: 10%;
+  }
+
+  .resultWrap .result {
+    margin-top: 10%;
+  }
+
+  .resultWrap .btn {
+    width: 15%;
+  }
+}
